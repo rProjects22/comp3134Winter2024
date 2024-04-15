@@ -1,0 +1,42 @@
+root@ubuntu-s-1vcpu-1gb-tor1-01:~# tcpdump -i eth0
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+15:26:55.475914 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-ngflon0303w-grc-05-70-27-41-216.dsl.bell.ca.60643: Flags [P.], seq 1469066487:1469066595, ack 1762276612, win 501, length 108
+15:26:55.476050 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-ngflon0303w-grc-05-70-27-41-216.dsl.bell.ca.60643: Flags [P.], seq 108:144, ack 1, win 501, length 36
+15:26:55.476111 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-ngflon0303w-grc-05-70-27-41-216.dsl.bell.ca.60643: Flags [P.], seq 144:196, ack 1, win 501, length 52
+15:26:55.476155 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-ngflon0303w-grc-05-70-27-41-216.dsl.bell.ca.60643: Flags [P.], seq 196:264, ack 1, win 501, length 68
+15:26:55.476192 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-ngflon0303w-grc-05-70-27-41-216.dsl.bell.ca.60643: Flags [P.], seq 264:332, ack 1, win 501, length 68
+15:26:55.476225 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-ngflon0303w-grc-05-70-27-41-216.dsl.bell.ca.60643: Flags [P.], seq 332:368, ack 1, win 501, length 36
+15:26:55.484364 IP bras-base-ngflon0303w-grc-05-70-27-41-216.dsl.bell.ca.60643 > ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 368, win 516, length 0
+15:26:55.565360 IP ubuntu-s-1vcpu-1gb-tor1-01.33096 > 67.207.67.2.domain: 7724+ [1au] PTR? 216.41.27.70.in-addr.arpa. (54)
+15:26:55.565613 IP ubuntu-s-1vcpu-1gb-tor1-01.46126 > 67.207.67.3.domain: Flags [S], seq 2144065318, win 64240, options [mss 1460,sackOK,TS val 2746318489 ecr 0,nop,wscale 7,tfo  cookiereq,nop,nop], length 0
+15:26:55.565950 IP ubuntu-s-1vcpu-1gb-tor1-01.38251 > 67.207.67.2.domain: 62705+ [1au] PTR? 97.219.110.143.in-addr.arpa. (56)
+15:26:55.567495 IP 67.207.67.3.domain > ubuntu-s-1vcpu-1gb-tor1-01.46126: Flags [S.], seq 2500769845, ack 2144065319, win 65160, options [mss 1460,sackOK,TS val 1660859526 ecr 2746318489,nop,wscale 9], length 0
+15:26:55.567495 IP 67.207.67.2.domain > ubuntu-s-1vcpu-1gb-tor1-01.38251: 62705 NXDomain 0/1/1 (123)
+15:26:55.567495 IP 67.207.67.2.domain > ubuntu-s-1vcpu-1gb-tor1-01.33096: 7724 2/0/1 PTR bras-base-toroon0560w-grc-72-70-27-41-216.dsl.bell.ca., PTR bras-base-ngflon0303w-grc-05-70-27-41-216.dsl.bell.ca. (177)
+15:26:55.567541 IP ubuntu-s-1vcpu-1gb-tor1-01.46126 > 67.207.67.3.domain: Flags [.], ack 1, win 502, options [nop,nop,TS val 2746318491 ecr 1660859526], length 0
+15:26:55.567691 IP ubuntu-s-1vcpu-1gb-tor1-01.46126 > 67.207.67.3.domain: Flags [P.], seq 1:46, ack 1, win 502, options [nop,nop,TS val 2746318491 ecr 1660859526], length 45 2754+ PTR? 216.41.27.70.in-addr.arpa. (43)
+15:26:55.567822 IP ubuntu-s-1vcpu-1gb-tor1-01.38251 > 67.207.67.2.domain: 62705+ PTR? 97.219.110.143.in-addr.arpa. (45)
+15:26:55.568021 IP 67.207.67.3.domain > ubuntu-s-1vcpu-1gb-tor1-01.46126: Flags [.], ack 46, win 128, options [nop,nop,TS val 1660859527 ecr 2746318491], length 0
+15:26:55.568123 IP 67.207.67.3.domain > ubuntu-s-1vcpu-1gb-tor1-01.46126: Flags [P.], seq 1:169, ack 46, win 128, options [nop,nop,TS val 1660859528 ecr 2746318491], length 168 2754 2/0/0 PTR bras-base-ngflon0303w-grc-05-70-27-41-216.dsl.bell.ca., PTR bras-base-toroon0560w-grc-72-70-27-41-216.dsl.bell.ca. (166)
+15:26:55.568156 IP ubuntu-s-1vcpu-1gb-tor1-01.46126 > 67.207.67.3.domain: Flags [.], ack 169, win 501, options [nop,nop,TS val 2746318491 ecr 1660859528], length 0
+15:26:55.568184 IP 67.207.67.2.domain > ubuntu-s-1vcpu-1gb-tor1-01.38251: 62705 NXDomain 0/1/0 (112)
+15:26:55.568906 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-ngflon0303w-grc-05-70-27-41-216.dsl.bell.ca.60643: Flags [P.], seq 368:596, ack 1, win 501, length 228
+15:26:55.569017 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-ngflon0303w-grc-05-70-27-41-216.dsl.bell.ca.60643: Flags [P.], seq 596:632, ack 1, win 501, length 36
+15:26:55.569126 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-ngflon0303w-grc-05-70-27-41-216.dsl.bell.ca.60643: Flags [P.], seq 632:836, ack 1, win 501, length 204
+15:26:55.569173 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-ngflon0303w-grc-05-70-27-41-216.dsl.bell.ca.60643: Flags [P.], seq 836:872, ack 1, win 501, length 36
+15:26:55.569244 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-ngflon0303w-grc-05-70-27-41-216.dsl.bell.ca.60643: Flags [P.], seq 872:1076, ack 1, win 501, length 204
+15:26:55.569314 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-ngflon0303w-grc-05-70-27-41-216.dsl.bell.ca.60643: Flags [P.], seq 1076:1112, ack 1, win 501, length 36
+15:26:55.569365 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-ngflon0303w-grc-05-70-27-41-216.dsl.bell.ca.60643: Flags [P.], seq 1112:1316, ack 1, win 501, length 204
+15:26:55.569414 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-ngflon0303w-grc-05-70-27-41-216.dsl.bell.ca.60643: Flags [P.], seq 1316:1352, ack 1, win 501, length 36
+15:26:55.569482 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-ngflon0303w-grc-05-70-27-41-216.dsl.bell.ca.60643: Flags [P.], seq 1352:1556, ack 1, win 501, length 204
+15:26:55.569559 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-ngflon0303w-grc-05-70-27-41-216.dsl.bell.ca.60643: Flags [P.], seq 1556:1592, ack 1, win 501, length 36
+15:26:55.569590 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-ngflon0303w-grc-05-70-27-41-216.dsl.bell.ca.60643: Flags [P.], seq 1592:1796, ack 1, win 501, length 204
+15:26:55.569632 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-ngflon0303w-grc-05-70-27-41-216.dsl.bell.ca.60643: Flags [P.], seq 1796:1832, ack 1, win 501, length 36
+15:26:55.569700 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-ngflon0303w-grc-05-70-27-41-216.dsl.bell.ca.60643: Flags [P.], seq 1832:2020, ack 1, win 501, length 188
+15:26:55.569745 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-ngflon0303w-grc-05-70-27-41-216.dsl.bell.ca.60643: Flags [P.], seq 2020:2056, ack 1, win 501, length 36
+15:26:55.579027 IP bras-base-ngflon0303w-grc-05-70-27-41-216.dsl.bell.ca.60643 > ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 2056, win 516, length 0
+^C
+35 packets captured
+93 packets received by filter
+0 packets dropped by kernel

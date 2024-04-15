@@ -1,0 +1,23 @@
+root@ubuntu-s-1vcpu-1gb-tor1-01:~# tcpdump -r 0001.pcap
+reading from file 0001.pcap, link-type EN10MB (Ethernet), snapshot length 262144
+15:32:21.212256 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0560w-grc-72-70-27-41-216.dsl.bell.ca.60643: Flags [P.], seq 1496976247:1496976291, ack 1762293856, win 501, length 44
+15:32:21.212319 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0560w-grc-72-70-27-41-216.dsl.bell.ca.60643: Flags [P.], seq 44:96, ack 1, win 501, length 52
+15:32:21.212399 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0560w-grc-72-70-27-41-216.dsl.bell.ca.60643: Flags [P.], seq 96:232, ack 1, win 501, length 136
+15:32:21.212446 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0560w-grc-72-70-27-41-216.dsl.bell.ca.60643: Flags [P.], seq 232:268, ack 1, win 501, length 36
+15:32:21.220695 IP bras-base-toroon0560w-grc-72-70-27-41-216.dsl.bell.ca.60643 > ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 268, win 1029, length 0
+15:32:22.059576 IP 79.124.56.142.superbit.host.46902 > ubuntu-s-1vcpu-1gb-tor1-01.32757: Flags [S], seq 295052386, win 1025, options [mss 1460], length 0
+15:32:22.059627 IP ubuntu-s-1vcpu-1gb-tor1-01.32757 > 79.124.56.142.superbit.host.46902: Flags [R.], seq 0, ack 295052387, win 0, length 0
+15:32:22.182617 IP 79.124.56.142.superbit.host.46902 > ubuntu-s-1vcpu-1gb-tor1-01.32757: Flags [R], seq 295052387, win 1200, options [mss 1460], length 0
+15:32:25.062037 IP hosted-by.pfcloud.io.4444 > ubuntu-s-1vcpu-1gb-tor1-01.58646: Flags [P.], seq 3625854219:3625854220, ack 1284746730, win 509, options [nop,nop,TS val 1438449617 ecr 743025453], length 1
+15:32:25.062236 IP ubuntu-s-1vcpu-1gb-tor1-01.58646 > hosted-by.pfcloud.io.4444: Flags [P.], seq 1:2, ack 1, win 502, options [nop,nop,TS val 743030559 ecr 1438449617], length 1
+15:32:25.173514 IP hosted-by.pfcloud.io.4444 > ubuntu-s-1vcpu-1gb-tor1-01.58646: Flags [.], ack 2, win 509, options [nop,nop,TS val 1438449722 ecr 743030559], length 0
+15:32:28.253388 IP bras-base-toroon0560w-grc-72-70-27-41-216.dsl.bell.ca.60643 > ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 1:37, ack 268, win 1029, length 36
+15:32:28.253625 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0560w-grc-72-70-27-41-216.dsl.bell.ca.60643: Flags [P.], seq 268:304, ack 37, win 501, length 36
+15:32:28.313941 IP bras-base-toroon0560w-grc-72-70-27-41-216.dsl.bell.ca.60643 > ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 304, win 1029, length 0
+15:32:29.358212 IP bras-base-toroon0560w-grc-72-70-27-41-216.dsl.bell.ca.60643 > ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 37:73, ack 304, win 1029, length 36
+15:32:29.358470 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0560w-grc-72-70-27-41-216.dsl.bell.ca.60643: Flags [P.], seq 304:340, ack 73, win 501, length 36
+15:32:29.444438 IP bras-base-toroon0560w-grc-72-70-27-41-216.dsl.bell.ca.60643 > ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 340, win 1029, length 0
+15:32:30.167057 IP hosted-by.pfcloud.io.4444 > ubuntu-s-1vcpu-1gb-tor1-01.58646: Flags [P.], seq 1:2, ack 2, win 509, options [nop,nop,TS val 1438454722 ecr 743030559], length 1
+15:32:30.167257 IP ubuntu-s-1vcpu-1gb-tor1-01.58646 > hosted-by.pfcloud.io.4444: Flags [P.], seq 2:3, ack 2, win 502, options [nop,nop,TS val 743035664 ecr 1438454722], length 1
+15:32:30.271369 IP hosted-by.pfcloud.io.4444 > ubuntu-s-1vcpu-1gb-tor1-01.58646: Flags [.], ack 3, win 509, options [nop,nop,TS val 1438454827 ecr 743035664], length 0
+root@ubuntu-s-1vcpu-1gb-tor1-01:~#

@@ -1,0 +1,12 @@
+root@ubuntu-s-1vcpu-1gb-tor1-01:~# tcpdump -c 5 -i eth0
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+15:28:15.888606 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-ngflon0303w-grc-05-70-27-41-216.dsl.bell.ca.60643: Flags [P.], seq 1469075967:1469076075, ack 1762276752, win 501, length 108
+15:28:15.888828 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-ngflon0303w-grc-05-70-27-41-216.dsl.bell.ca.60643: Flags [P.], seq 108:144, ack 1, win 501, length 36
+15:28:15.888933 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-ngflon0303w-grc-05-70-27-41-216.dsl.bell.ca.60643: Flags [P.], seq 144:196, ack 1, win 501, length 52
+15:28:15.889030 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-ngflon0303w-grc-05-70-27-41-216.dsl.bell.ca.60643: Flags [P.], seq 196:264, ack 1, win 501, length 68
+15:28:15.889120 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-ngflon0303w-grc-05-70-27-41-216.dsl.bell.ca.60643: Flags [P.], seq 264:332, ack 1, win 501, length 68
+5 packets captured
+25 packets received by filter
+0 packets dropped by kernel
+root@ubuntu-s-1vcpu-1gb-tor1-01:~#

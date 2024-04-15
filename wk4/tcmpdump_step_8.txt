@@ -1,0 +1,16 @@
+root@ubuntu-s-1vcpu-1gb-tor1-01:~# tcpdump -n -i eth0
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+15:34:42.800203 IP 143.110.219.97.22 > 70.27.41.216.60643: Flags [P.], seq 1497016651:1497016759, ack 1762294908, win 501, length 108
+15:34:42.800380 IP 143.110.219.97.22 > 70.27.41.216.60643: Flags [P.], seq 108:144, ack 1, win 501, length 36
+15:34:42.800456 IP 143.110.219.97.22 > 70.27.41.216.60643: Flags [P.], seq 144:196, ack 1, win 501, length 52
+15:34:42.800545 IP 143.110.219.97.22 > 70.27.41.216.60643: Flags [P.], seq 196:264, ack 1, win 501, length 68
+15:34:42.800589 IP 143.110.219.97.22 > 70.27.41.216.60643: Flags [P.], seq 264:332, ack 1, win 501, length 68
+15:34:42.800625 IP 143.110.219.97.22 > 70.27.41.216.60643: Flags [P.], seq 332:368, ack 1, win 501, length 36
+15:34:42.808195 IP 70.27.41.216.60643 > 143.110.219.97.22: Flags [.], ack 368, win 1029, length 0
+15:34:42.817418 IP 23.27.120.109.40725 > 143.110.219.97.3393: Flags [R], seq 873783991, win 1200, length 0
+^C
+8 packets captured
+30 packets received by filter
+0 packets dropped by kernel
+root@ubuntu-s-1vcpu-1gb-tor1-01:~#

@@ -1,0 +1,136 @@
+root@ubuntu-s-1vcpu-1gb-tor1-01:~# tcpdump -A -i eth0
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+15:28:55.204251 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0560w-grc-72-70-27-41-216.dsl.bell.ca.60643: Flags [P.], seq 1471776039:1471776147, ack 1762278448, win 501, length 108
+E....;@.@..U.n.aF.).....W..'i
+<0P....I....#%:........".<.y.....v.!.0...Y."......      ).}......-..M...q.O...|..       E........u...S........tb^n..i@...........
+15:28:55.204397 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0560w-grc-72-70-27-41-216.dsl.bell.ca.60643: Flags [P.], seq 108:144, ack 1, win 501, length 36
+E..L.<@.@....n.aF.).....W...i
+<0P.........z.....n..N..?...$]0..I......$....1
+15:28:55.204535 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0560w-grc-72-70-27-41-216.dsl.bell.ca.60643: Flags [P.], seq 144:196, ack 1, win 501, length 52
+E..\.=@.@....n.aF.).....W...i
+<0P.......1.....w...:....i.k"Y...p.d....&d.....G..W/^2....S^i.
+15:28:55.204619 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0560w-grc-72-70-27-41-216.dsl.bell.ca.60643: Flags [P.], seq 196:264, ack 1, win 501, length 68
+E..l.>@.@..z.n.aF.).....W...i
+<0P....!.....2...B.].(..^.q.\.Z.u`1Y......g.1...n..e.yT..lTJ.-..Eg.jr.V......4
+15:28:55.204687 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0560w-grc-72-70-27-41-216.dsl.bell.ca.60643: Flags [P.], seq 264:332, ack 1, win 501, length 68
+E..l.?@.@..y.n.aF.).....W../i
+<0P....!..F.j.Z._$..G..*.8.H.f....](.0.k.n.U..
+...k*.F.~F.X..w....m.w..Ld.:^..
+15:28:55.204749 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0560w-grc-72-70-27-41-216.dsl.bell.ca.60643: Flags [P.], seq 332:368, ack 1, win 501, length 36
+E..L.@@.@....n.aF.).....W..si
+<0P.......f........../....>!1...w...O...>.!{..
+15:28:55.212528 IP bras-base-toroon0560w-grc-72-70-27-41-216.dsl.bell.ca.60643 > ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 368, win 513, length 0
+E..(..@.v..dF.)..n.a....i
+<0W...P...b.....
+15:28:55.293449 IP ubuntu-s-1vcpu-1gb-tor1-01.53373 > 67.207.67.2.domain: 5929+ [1au] PTR? 216.41.27.70.in-addr.arpa. (54)
+E..R?...@.I..n.aC.C..}.5.>...)...........216.41.27.70.in-addr.arpa.......)........
+15:28:55.294887 IP 67.207.67.2.domain > ubuntu-s-1vcpu-1gb-tor1-01.53373: 5929 2/0/1 PTR bras-base-toroon0560w-grc-72-70-27-41-216.dsl.bell.ca., PTR bras-base-ngflon0303w-grc-05-70-27-41-216.dsl.bell.ca. (177)
+E...v...<...C.C..n.a.5.}..4..)...........216.41.27.70.in-addr.arpa.............P..7)bras-base-toroon0560w-grc-72-70-27-41-216.dsl.bell.ca.........P..,)bras-base-ngflon0303w-grc-05-70-27-41-216.a..)........
+15:28:55.295145 IP ubuntu-s-1vcpu-1gb-tor1-01.42312 > 67.207.67.3.domain: Flags [S], seq 1355807184, win 64240, options [mss 1460,sackOK,TS val 2746438218 ecr 0,nop,wscale 7,tfo  cookiereq,nop,nop], length 0
+E..@`.@.@..".n.aC.C..H.5P......................
+..RJ........"...
+15:28:55.295602 IP 67.207.67.3.domain > ubuntu-s-1vcpu-1gb-tor1-01.42312: Flags [S.], seq 2498761391, ack 1355807185, win 65160, options [mss 1460,sackOK,TS val 1660979255 ecr 2746438218,nop,wscale 9], length 0
+E..<..@.<.M.C.C..n.a.5.H....P..................
+c..7..RJ...
+15:28:55.295626 IP ubuntu-s-1vcpu-1gb-tor1-01.42312 > 67.207.67.3.domain: Flags [.], ack 1, win 502, options [nop,nop,TS val 2746438219 ecr 1660979255], length 0
+E..4`.@.@..-.n.aC.C..H.5P..................
+..RKc..7
+15:28:55.295740 IP ubuntu-s-1vcpu-1gb-tor1-01.36938 > 67.207.67.2.domain: 34817+ [1au] PTR? 97.219.110.143.in-addr.arpa. (56)
+E..T.C..@.q..n.aC.C..J.5.@...............97.219.110.143.in-addr.arpa.......)........
+15:28:55.295775 IP ubuntu-s-1vcpu-1gb-tor1-01.42312 > 67.207.67.3.domain: Flags [P.], seq 1:46, ack 1, win 502, options [nop,nop,TS val 2746438219 ecr 1660979255], length 45 40914+ PTR? 216.41.27.70.in-addr.arpa. (43)
+E..a`.@.@....n.aC.C..H.5P..................
+..RKc..7.+.............216.41.27.70.in-addr.arpa.....
+15:28:55.296118 IP 67.207.67.3.domain > ubuntu-s-1vcpu-1gb-tor1-01.42312: Flags [.], ack 46, win 128, options [nop,nop,TS val 1660979256 ecr 2746438219], length 0
+E..4..@.<...C.C..n.a.5.H....P........w.....
+c..8..RK
+15:28:55.296200 IP 67.207.67.2.domain > ubuntu-s-1vcpu-1gb-tor1-01.36938: 34817 NXDomain 0/1/1 (123)
+E....S..<..aC.C..n.a.5.J.................97.219.110.143.in-addr.arpa..............}.7.ns1.digitalocean.com.
+hostmaster..f.....*0.....       :.......)........
+15:28:55.296200 IP 67.207.67.3.domain > ubuntu-s-1vcpu-1gb-tor1-01.42312: Flags [P.], seq 1:169, ack 46, win 128, options [nop,nop,TS val 1660979256 ecr 2746438219], length 168 40914 2/0/0 PTR bras-base-ngflon0303w-grc-05-70-27-41-216.dsl.bell.ca., PTR bras-base-toroon0560w-grc-72-70-27-41-216.dsl.bell.ca. (166)
+E.....@.<...C.C..n.a.5.H....P..............
+c..8..RK...............216.41.27.70.in-addr.arpa.............P..7)bras-base-ngflon0303w-grc-05-70-27-41-216.dsl.bell.ca.........P..,)bras-base-toroon0560w-grc-72-70-27-41-216.a
+15:28:55.296222 IP ubuntu-s-1vcpu-1gb-tor1-01.42312 > 67.207.67.3.domain: Flags [.], ack 169, win 501, options [nop,nop,TS val 2746438219 ecr 1660979256], length 0
+E..4`.@.@..+.n.aC.C..H.5P......X...........
+..RKc..8
+15:28:55.296313 IP ubuntu-s-1vcpu-1gb-tor1-01.36938 > 67.207.67.2.domain: 34817+ PTR? 97.219.110.143.in-addr.arpa. (45)
+E..I.D..@.q..n.aC.C..J.5.5...............97.219.110.143.in-addr.arpa.....
+15:28:55.296581 IP 67.207.67.2.domain > ubuntu-s-1vcpu-1gb-tor1-01.36938: 34817 NXDomain 0/1/0 (112)
+E....T..<..kC.C..n.a.5.J.x...............97.219.110.143.in-addr.arpa..............}.7.ns1.digitalocean.com.
+hostmaster..f.....*0.....       :.....
+15:28:55.297130 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0560w-grc-72-70-27-41-216.dsl.bell.ca.60643: Flags [P.], seq 368:596, ack 1, win 501, length 228
+E....A@.@....n.aF.).....W...i
+<0P........P..&.p.&..6..Z..i%.......M.4P.N.9.8W.v..jk..b.E!!I@jr.+#......../...............?iT......G(8.L|`    .D@.T.T.c..o5CSXL...Z...Y%..;.!...R.......;..V.........;=.K..W.z....^o...].._...3....7u..(.......m...IA.x./.G...W....Y...N.glp...
+15:28:55.297219 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0560w-grc-72-70-27-41-216.dsl.bell.ca.60643: Flags [P.], seq 596:632, ack 1, win 501, length 36
+E..L.B@.@....n.aF.).....W..{i
+<0P.......G     >.&K.NG..}....V.8.O.d..ia...+...5.
+15:28:55.297259 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0560w-grc-72-70-27-41-216.dsl.bell.ca.60643: Flags [P.], seq 632:700, ack 1, win 501, length 68
+E..l.C@.@..u.n.aF.).....W...i
+<0P....!..      j..M.>K..       .o....|O+B...s.....b..r..h.J.L...J.oR..Z.....$.....
+{.g2;
+15:28:55.297294 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0560w-grc-72-70-27-41-216.dsl.bell.ca.60643: Flags [P.], seq 700:736, ack 1, win 501, length 36
+E..L.D@.@....n.aF.).....W...i
+<0P.......l....;....4...........U#.h...,...e.k
+15:28:55.297379 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0560w-grc-72-70-27-41-216.dsl.bell.ca.60643: Flags [P.], seq 736:820, ack 1, win 501, length 84
+E..|.E@.@..c.n.aF.).....W...i
+<0P....1...R..|.8p...5...'.:.axf.?_...%z|_Y...C.w.......I.....$....Y..,.B..e@.....Dou. ......8
+15:28:55.297463 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0560w-grc-72-70-27-41-216.dsl.bell.ca.60643: Flags [P.], seq 820:856, ack 1, win 501, length 36
+E..L.F@.@....n.aF.).....W..[i
+<0P........N.\n .A....l7ZaYc...5../Q.)....;...
+15:28:55.297483 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0560w-grc-72-70-27-41-216.dsl.bell.ca.60643: Flags [P.], seq 856:916, ack 1, win 501, length 60
+E..d.G@.@..y.n.aF.).....W...i
+<0P.........-6....i.Khn........w^.*.._pks$'..XD
+.gv..v.h...i...*.....^
+15:28:55.298029 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0560w-grc-72-70-27-41-216.dsl.bell.ca.60643: Flags [P.], seq 916:1972, ack 1, win 501, length 1056
+E..H.H@.@....n.aF.).....W...i
+<0P........-rH..%..C)Q0F7.+..m..../v.E....H.;b...RYui..v.|...k|5.....w..GB.."...>..5...{.|...V..[}.su..6.b.p..^Z)46r.>N,g$.p...:u5..O.Tp........|..u.mK.X3.....-#l.4....r#..:v.J.i..Dv..[|.3.[!N...xo.e..j...f.u}`.Aq0k.d.:..p..$.
+..\y......I.?.q(.......0.......e...1.k.u^2...g.x4...!BX.0....?R*k.X(....R[..C".'y.;.]../;.v...x.p....$.
+tr.....yX.b.4$./]..N:c..u.{....[....Op..1mJ..'...}..(-.j.I7.?j*......l...R|q.^(w..L.    ]...@. .c......L..s...o.&...4....C.".Q.w. ........c....A.....L....]Lk....AU!.......o......     .=.NV.C.(....a../..E...h..'.>....=.....*.k...!(.i.._n..d$...?.;O.n...b&d.P...g3%       .....7\.A`.].Z............o..I...wYY..6{.}....l...<.2<U.B..B....
+...q...Z#..P6..3....O..=        e...._..v.....(..RW.N."...7...@4.9...1....;.....9WF..{h|+,.k....K.q.E....*.....Qb.eh..f..:.A;F.?.M...'..ku,.l.DC..l........Z.D.sz7vk..........E4..s...?".w.h..6..y......N..ar...[f..H..\L......$..3I..\...2..;....f..`F.Y..g......jk..a.U.m..S....ie.3..F....3.Dt..9....A9L......>p.V..;x.....3../...}...T.;Uxb3U_   ....z.r.q].P....\.t..,.lY&."...).uLI..../       ..U...`.|.....w;]ET....Z.0...P..../.H`.
+15:28:55.298293 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0560w-grc-72-70-27-41-216.dsl.bell.ca.60643: Flags [P.], seq 1972:2504, ack 1, win 501, length 532
+E..<.I@.@....n.aF.).....W...i
+<0P........g...(        ]g&...S>Im.h.K.x.:.t.JR,P"?..<4.p.....-.Q.....Z.FS.{d:[...c....fB.U..`.-..N..(m.....r....@d...N."G.M...UH..e......._t(&........!.b'..Ej..[.{jr.=.k...,i.`.3.T....p%..3.K.,.x.(b...$.;..J..*..E..+
+8[.....nH.5........q../D0.8..4....;F.hyd...Y..;5.#T.!...e.P...-..N...5..7..I..E.[....}.j.!o.^.d3......:.q...o..B7>.oO............t.........K.c'.W.s.8...5...1..$...y.....%9.GFf..TlK.6...6..{Uu..9...'9.E:...S.9........X     ...p.........TA.#.n/5.H..0..h......#\...7.O0..5.......k..N.......^$......o.Y.y..!..`r.U.........z.@.7.(.ra..c....
+15:28:55.298376 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0560w-grc-72-70-27-41-216.dsl.bell.ca.60643: Flags [P.], seq 2504:2708, ack 1, win 501, length 204
+E....J@.@....n.aF.).....W...i
+<0P.......3..M.b0...Pd.h...S...MU...tR[......'.._..>.th....<..>..8...........\w....5V.q....M..jX...../..HS..p.(....U......N..........B.v&*.].:..M^g.6.X....T..ctN.?..S..gZ..r'...I-D@=....&...x.A2     .+..w.....p......\.
+15:28:55.298419 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0560w-grc-72-70-27-41-216.dsl.bell.ca.60643: Flags [P.], seq 2708:2744, ack 1, win 501, length 36
+E..L.K@.@....n.aF.).....W...i
+<0P.......^.".lfM&......fb..=A...r
+..Y..o.Q..b
+15:28:55.298470 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0560w-grc-72-70-27-41-216.dsl.bell.ca.60643: Flags [P.], seq 2744:2812, ack 1, win 501, length 68
+E..l.L@.@..l.n.aF.).....W...i
+<0P....!.. ..[.}...g,).h.       .\.9.%_..q.\..Z.-.......N..'v8,R*.P..3..4..@.h2O.x..
+15:28:55.298687 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0560w-grc-72-70-27-41-216.dsl.bell.ca.60643: Flags [P.], seq 2812:2848, ack 1, win 501, length 36
+E..L.M@.@....n.aF.).....W..#i
+<0P................P...#..8.j..7.1.     .b........
+15:28:55.298765 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0560w-grc-72-70-27-41-216.dsl.bell.ca.60643: Flags [P.], seq 2848:2932, ack 1, win 501, length 84
+E..|.N@.@..Z.n.aF.).....W..Gi
+<0P....1..s...._Y...R_..3`^F... ....n.>.......;W.e.o..?.....N..|re......=.....k..(.r....E.B..Q
+15:28:55.298832 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0560w-grc-72-70-27-41-216.dsl.bell.ca.60643: Flags [P.], seq 2932:2968, ack 1, win 501, length 36
+E..L.O@.@....n.aF.).....W...i
+<0P........,k.  E!...4..X....C.c..V.ig&..._.Y1.
+15:28:55.298887 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0560w-grc-72-70-27-41-216.dsl.bell.ca.60643: Flags [P.], seq 2968:3036, ack 1, win 501, length 68
+E..l.P@.@..h.n.aF.).....W...i
+<0P....!...?9.@....bBT7g....0V..@..n{...b...<5p...sFB)^.Sd \.r.P.<....$....[..
+15:28:55.298929 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0560w-grc-72-70-27-41-216.dsl.bell.ca.60643: Flags [P.], seq 3036:3072, ack 1, win 501, length 36
+E..L.Q@.@....n.aF.).....W...i
+<0P........p.:o.P.k ;]....iPn..VVd..9...#r.g.A
+15:28:55.305886 IP bras-base-toroon0560w-grc-72-70-27-41-216.dsl.bell.ca.60643 > ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 2968, win 516, length 0
+E..(..@.v..cF.)..n.a....i
+<0W...P...X`....
+15:28:55.305954 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0560w-grc-72-70-27-41-216.dsl.bell.ca.60643: Flags [P.], seq 3072:3944, ack 1, win 501, length 872
+E....R@.@..B.n.aF.).....W..'i
+<0P....E...s..k76...../...%...b..7.V...].....G[9..32....q......|^.V0i....G.r)....;R.{[.c....x?$..to.......J.7G.....4jt.....!.vt......3...L...a.R}..y..x...w|..T.r.b..n>.....J............1p.K..        x..7...c..p...G.oH. .&aj.....s...-.qX...fF...?/X...Y....9..P.nA4...#.....Y.O.....).....aH.bAF..9[)z.....Y.._N.....u...--_.9.4,V.bB$.DW...F..........>j..`..{..O..xz....."...ip.j...._.....+./2..Fa.....:.........[.....4ht.@..L[.. . ..":.=..R.3..........g.....8......./{k...XN.E.0Au.....\.c....OB.....?kj.(=...GXx..\...........hLX...C+.......X.v...8...\.} x.3......'("9..q...........W...h..|..j.....ck/7.+.......xu...H.Xm\<.bU..V.D....zM.W..F.PWo.t;....<.;@!.W...(..1+e.[.
+g....8gd.8....Q.`.......S       .B{. P.v.....*..^Y.".X+#(4J_.....]...}9..AAc..k.5F...u.b..m...|C..Z=(.R.....t.....QF.5..=..?.. .......+t........R.\.....-..xr...N0$....9..PU.#......4......Me....i...f.....XZ...?     .....j;..a. 1?.n;
+15:28:55.306834 IP bras-base-toroon0560w-grc-72-70-27-41-216.dsl.bell.ca.60643 > ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 3072, win 515, length 0
+E..(..@.v..bF.)..n.a....i
+<0W..'P...W.....
+15:28:55.314140 IP bras-base-toroon0560w-grc-72-70-27-41-216.dsl.bell.ca.60643 > ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 3944, win 512, length 0
+E..(..@.v..aF.)..n.a....i
+<0W...P...T.....
+^C
+41 packets captured
+141 packets received by filter
+0 packets dropped by kernel
+root@ubuntu-s-1vcpu-1gb-tor1-01:~#

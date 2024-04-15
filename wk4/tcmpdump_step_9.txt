@@ -1,0 +1,33 @@
+root@ubuntu-s-1vcpu-1gb-tor1-01:~# tcpdump -i eth0 tcp
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+15:35:35.584634 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0560w-grc-72-70-27-41-216.dsl.bell.ca.60643: Flags [P.], seq 1497149795:1497149903, ack 1762295468, win 501, length 108
+15:35:35.584737 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0560w-grc-72-70-27-41-216.dsl.bell.ca.60643: Flags [P.], seq 108:144, ack 1, win 501, length 36
+15:35:35.584899 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0560w-grc-72-70-27-41-216.dsl.bell.ca.60643: Flags [P.], seq 144:196, ack 1, win 501, length 52
+15:35:35.584953 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0560w-grc-72-70-27-41-216.dsl.bell.ca.60643: Flags [P.], seq 196:264, ack 1, win 501, length 68
+15:35:35.585004 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0560w-grc-72-70-27-41-216.dsl.bell.ca.60643: Flags [P.], seq 264:332, ack 1, win 501, length 68
+15:35:35.585052 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0560w-grc-72-70-27-41-216.dsl.bell.ca.60643: Flags [P.], seq 332:368, ack 1, win 501, length 36
+15:35:35.591774 IP bras-base-toroon0560w-grc-72-70-27-41-216.dsl.bell.ca.60643 > ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 368, win 1030, length 0
+15:35:35.673477 IP ubuntu-s-1vcpu-1gb-tor1-01.36166 > 67.207.67.3.domain: Flags [P.], seq 3305498089:3305498134, ack 3756594129, win 501, options [nop,nop,TS val 2746838597 ecr 1205118284], length 45 1043+ PTR? 216.41.27.70.in-addr.arpa. (43)
+15:35:35.674160 IP 67.207.67.3.domain > ubuntu-s-1vcpu-1gb-tor1-01.36166: Flags [P.], seq 1:169, ack 45, win 128, options [nop,nop,TS val 1205119987 ecr 2746838597], length 168 1043 2/0/0 PTR bras-base-ngflon0303w-grc-05-70-27-41-216.dsl.bell.ca., PTR bras-base-toroon0560w-grc-72-70-27-41-216.dsl.bell.ca. (166)
+15:35:35.674176 IP ubuntu-s-1vcpu-1gb-tor1-01.36166 > 67.207.67.3.domain: Flags [.], ack 169, win 501, options [nop,nop,TS val 2746838597 ecr 1205119987], length 0
+15:35:35.675566 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0560w-grc-72-70-27-41-216.dsl.bell.ca.60643: Flags [P.], seq 368:596, ack 1, win 501, length 228
+15:35:35.675650 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0560w-grc-72-70-27-41-216.dsl.bell.ca.60643: Flags [P.], seq 596:632, ack 1, win 501, length 36
+15:35:35.675716 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0560w-grc-72-70-27-41-216.dsl.bell.ca.60643: Flags [P.], seq 632:836, ack 1, win 501, length 204
+15:35:35.675752 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0560w-grc-72-70-27-41-216.dsl.bell.ca.60643: Flags [P.], seq 836:872, ack 1, win 501, length 36
+15:35:35.675803 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0560w-grc-72-70-27-41-216.dsl.bell.ca.60643: Flags [P.], seq 872:1076, ack 1, win 501, length 204
+15:35:35.675837 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0560w-grc-72-70-27-41-216.dsl.bell.ca.60643: Flags [P.], seq 1076:1112, ack 1, win 501, length 36
+15:35:35.675886 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0560w-grc-72-70-27-41-216.dsl.bell.ca.60643: Flags [P.], seq 1112:1316, ack 1, win 501, length 204
+15:35:35.675934 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0560w-grc-72-70-27-41-216.dsl.bell.ca.60643: Flags [P.], seq 1316:1352, ack 1, win 501, length 36
+15:35:35.675983 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0560w-grc-72-70-27-41-216.dsl.bell.ca.60643: Flags [P.], seq 1352:1556, ack 1, win 501, length 204
+15:35:35.676021 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0560w-grc-72-70-27-41-216.dsl.bell.ca.60643: Flags [P.], seq 1556:1592, ack 1, win 501, length 36
+15:35:35.676094 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0560w-grc-72-70-27-41-216.dsl.bell.ca.60643: Flags [P.], seq 1592:1796, ack 1, win 501, length 204
+15:35:35.676136 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0560w-grc-72-70-27-41-216.dsl.bell.ca.60643: Flags [P.], seq 1796:1832, ack 1, win 501, length 36
+15:35:35.676211 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0560w-grc-72-70-27-41-216.dsl.bell.ca.60643: Flags [P.], seq 1832:2020, ack 1, win 501, length 188
+15:35:35.676255 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0560w-grc-72-70-27-41-216.dsl.bell.ca.60643: Flags [P.], seq 2020:2056, ack 1, win 501, length 36
+15:35:35.683517 IP bras-base-toroon0560w-grc-72-70-27-41-216.dsl.bell.ca.60643 > ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 2056, win 1032, length 0
+^C
+25 packets captured
+66 packets received by filter
+0 packets dropped by kernel
+root@ubuntu-s-1vcpu-1gb-tor1-01:~#

@@ -1,0 +1,19 @@
+Domain Name: nba.com
+IP Address: 23.207.40.248 is hosted on a dedicated server
+IP Location: United States - Oregon - Hillsboro - Akamai Technologies Inc.
+
+Domain Name: apple.com
+IP Address: 23.218.185.24 - 2 other sites hosted on this server
+IP Location: United States - Washington - Seattle - Akamai International Bv
+
+Domain Name: nike.com
+IP Address: 104.97.44.80 - 2 other sites hosted on this server
+IP Location: United States - Washington - Seattle - Akamai Technologies Inc.
+
+Domain Name: uber.com
+IP Address: 34.98.127.226 - 7 other sites hosted on this server
+IP Location: United States - Missouri - Kansas City - Google
+
+Domain Name : samsung.com
+IP Address: 23.218.184.61 - 1 other site is hosted on this server
+IP Location: United States - Washington - Seattle - Akamai International Bv
